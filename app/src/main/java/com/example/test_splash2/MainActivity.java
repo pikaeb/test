@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("tagtag", "onCreate called. savedInstanceState: " + savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d("tagtag","1");
 
